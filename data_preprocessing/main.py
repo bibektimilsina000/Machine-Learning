@@ -27,6 +27,7 @@ x[:, 1:3] = imputer.fit_transform(x[:, 1:3])
 
 print(x)
 
+
 from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 
