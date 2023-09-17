@@ -1,0 +1,24 @@
+Supervised Machine Learning
+    - Learns from being given "Right answers"
+
+
+    *   Regression - predict many numbers , infinitly many possible outputs
+
+    *   Categorical or Classes - predict categories , small number of possible outputs
+
+Supervised Machine Learning
+    - Data only comes with label x,but no input label y.
+      algorithm has to find structure in the data.
+
+
+
+    - Find something in the unlabled data
+
+    - Clustering
+        Grouping similar datapoints together
+
+    - Anomaly detection
+        Finds unusual datapoints.
+    - Dimensionality reduction
+        Compress data using fewer numbers.
+

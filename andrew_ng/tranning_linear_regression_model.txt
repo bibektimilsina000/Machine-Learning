@@ -1,0 +1,22 @@
+
+
+Linear Regression model
+
+f w,b(x) = wx+b
+
+
+
+
+Cost function
+
+J(w,b)  =  1/2m (sum(i=1 to i=m) (f w,b(x)i-yi)^2 )
+
+
+
+Gredient decent algorithm
+
+repeate untill convergence :
+
+    w =   α - d/dw J(w,b)
+    b =   α - d/db J(w,b)
+

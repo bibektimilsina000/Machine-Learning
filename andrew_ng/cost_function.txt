@@ -1,0 +1,30 @@
+Cost function is used for error calculation in the ML model.
+
+J(w,b)  =  1/2m (sum(i=1 to i=m) (ÿi-yi)^2 )
+
+
+
+Gredient decent algorithm used to find value of w and b for minimum value of J
+
+formula for Gredient decent
+
+
+repeate untill convergence :
+
+    w =   α - d/dw J(w,b)
+    b =   α - d/db J(w,b)
+
+should perform update of both w and b simultaniously
+
+
+
+if 
+
+where α = Learning rate
+
+if α is too small:
+    Gredient decent will be too slow.
+if α is too Large :
+    Gredient decent may 
+        - overshoot , never reach the minimum.
+        - Failed to converge , diverge
